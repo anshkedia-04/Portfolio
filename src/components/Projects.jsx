@@ -1,6 +1,5 @@
 import React from 'react';
 import './Projects.css';
-import profileImage from './profile.jpg';
 import signLang from './sign.jpg';
 import estate from './Estate.jpg';
 import listing from './Listing.jpg'; 
