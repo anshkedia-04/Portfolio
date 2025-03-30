@@ -1,0 +1,23 @@
+/* animations.css */
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .navbar a {
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #ff7f50;
+    transform: scale(1.1);
+  }
+  

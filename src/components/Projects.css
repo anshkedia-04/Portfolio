@@ -1,0 +1,82 @@
+.projects-section {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.projects-section h2 {
+  font-size: 3rem; /* Increased font size */
+  margin-bottom: 1rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem; /* Adjusted gap for better spacing */
+}
+
+.project-card {
+  background-color: black;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 320px; /* Increased width */
+  padding: 1.5rem; /* Increased padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.project-card h3 {
+  font-size: 1.5rem; /* Increased font size */
+  margin: 0.5rem 0;
+}
+
+.project-card p {
+  font-size: 1rem; /* Increased font size */
+  color: #666;
+}
+
+.project-button {
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.2rem; /* Adjusted padding for better aesthetics */
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.project-button:hover {
+  background-color: #e55b5b;
+}
+
+.see-all {
+  margin-top: 1.5rem;
+}
+
+.see-all-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem; /* Increased font size */
+  transition: background-color 0.3s;
+}
+
+.see-all-button:hover {
+  background-color: #555;
+}
