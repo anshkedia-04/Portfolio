@@ -4,8 +4,8 @@ import signLang from './sign.jpg';
 import estate from './Estate.jpg';
 import listing from './Listing.jpg'; 
 import dash from './Dash.jpg';
-import emotion from './emotion.jpg';
-import gesture from './gesture.jpg';
+import emotion from './Emotion.jpg';
+import gesture from './Gesture.jpg';
 
 const projects = [
   {
